@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/closet-website/static/css/main.073c9b0a.css",
+    "main.js": "/closet-website/static/js/main.0341ac63.js",
+    "static/js/787.3ca00910.chunk.js": "/closet-website/static/js/787.3ca00910.chunk.js",
+    "static/media/logo.svg": "/closet-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/closet-website/index.html",
+    "main.073c9b0a.css.map": "/closet-website/static/css/main.073c9b0a.css.map",
+    "main.0341ac63.js.map": "/closet-website/static/js/main.0341ac63.js.map",
+    "787.3ca00910.chunk.js.map": "/closet-website/static/js/787.3ca00910.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0341ac63.js"
+  ]
+}
