@@ -1,10 +1,7 @@
 import React from "react";
-import { useEffect, useState } from 'react'
-import './App.css';
 import SearchIcon from './search-icon.svg'
 import ItemCard from "./ItemCard";
-
-const API_URL = '';
+import './App.css';
 
 const items = [
     {
@@ -25,27 +22,13 @@ const items = [
     }
 ]
 
-
 const App = () => {
-    const { items1, setItems } = useState([]);
-
-    const getItems = async (itemType) => {
-        const response = await fetch(`${API_URL}&s=${itemType}`); // WIP
-        const data = await response.json();
-
-        setItems(data.Search);
-    }
-
-    useEffect(() => {
-        //getItems('Top');
-    }, []);
-
     return (
         <div className="app">
             <h1>Wendy's Closet</h1>
             <div className="search">
                 <input
-                    placeholder="Search for movies"
+                    placeholder="Search for items"
                     value="Top"
                     onChange={() => { }}
                 />
